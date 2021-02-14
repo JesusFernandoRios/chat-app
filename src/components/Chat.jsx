@@ -14,6 +14,7 @@ function Chat({location}) {
 
     const [name, setName] = useState('');
     const [room, setRoom] = useState('');
+    const [users, setUsers] = useState('')
     const [message, setMessage] = useState('')
     const [messages, setMessages] = useState([])
 
@@ -44,7 +45,11 @@ function Chat({location}) {
         socket.on('message', (message) => {
             setMessages([...messages, message])
         })
-    },[messages])
+
+        socket.on('roomData', ({users}) => {
+            setUsers(users);
+        });
+    },[])
 
 
     // function for sending messages
@@ -63,7 +68,7 @@ function Chat({location}) {
         <div className="outer__container">
 
             <div className="left__container">
-                <Users name={name}/>
+                <Users users={users}/>
             </div>
             <div className="right__container">
                 <InfoBar room={room} name={name} />
