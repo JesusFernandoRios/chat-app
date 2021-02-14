@@ -1,0 +1,28 @@
+.input__form {
+    display: flex;
+    width: 100%;
+    margin-top: 1%;
+}
+
+.form__input {
+    width: 90%;
+    height: 10px;
+    outline: none;
+    padding: 10px;
+}
+
+.sendButton {
+    border-radius: 50px;
+    background: rgba(255, 255, 255, 0.6);
+    border: none;
+    outline: none;
+    margin-left: 20px;
+    padding: 10px;
+}
+
+.sendButton:hover {
+    background: rgba(145, 10, 145, 0.993);
+    box-shadow: 0 0 30px rgb(194, 46, 231);
+    cursor: pointer;
+    color: white;
+}
