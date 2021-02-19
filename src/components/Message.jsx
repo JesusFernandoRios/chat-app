@@ -18,7 +18,7 @@ const Message = ({message: {user, text}, name}) => {
             <div className='message__container justify__end'>
                 <p className="sent__text">{trimmedName}</p>
 
-                <div className="message__box">
+                <div className="message__user">
                     <p className="message__text">{ReactEmoji.emojify(text)}</p>
                 </div>
 
@@ -27,7 +27,7 @@ const Message = ({message: {user, text}, name}) => {
         : (
             <div className='message__container justify__start'>
 
-                <div className="message__box">
+                <div className="message__nonUser">
                     <p className="message__text">{ReactEmoji.emojify(text)}</p>
                 </div>
                 <p className="sent__text">{user}</p>
