@@ -1,0 +1,80 @@
+.join__container {
+    background: white;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+}
+
+.join__innerContainer {
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.name__input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+.room__input {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+    font-size: 25px;
+}
+
+.name__input > input {
+    padding: 5%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5%;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+
+.room__input > input {
+    padding: 5%;
+    border-radius: 20px;
+    border: none;
+    margin-top: 5%;
+    outline: none;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+label {
+    text-align: center;
+}
+
+
+.heading {
+    text-align: center;
+}
+
+.join__context {
+    color: rgb(185, 184, 185);
+    font-size: 20px;
+}
+
+.join__button {
+    width: 50%;
+    margin-top: 20%;
+    margin-left: 25%;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 5%;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    outline: none;
+}
+
+.join__button:hover {
+    background: rgba(247, 12, 122, 0.993);
+    box-shadow: 0 0 30px rgb(255, 0, 128);
+    cursor: pointer;
+    color: white;
+}
