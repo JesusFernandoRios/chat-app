@@ -1,10 +1,24 @@
+<<<<<<< HEAD
 
 .message__text {
+=======
+.messageBox {
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+  }
+  
+  .messageText {
+>>>>>>> 84acef162214e60ac04bb0044682a39167d9e6a9
     width: 100%;
     letter-spacing: 0;
     float: left;
     font-size: 1.1em;
     word-wrap: break-word;
+<<<<<<< HEAD
 }
 
 .messageText img {
@@ -35,11 +49,44 @@
 }
   
 .sent__text {
+=======
+  }
+  
+  .messageText img {
+    vertical-align: middle;
+  }
+  
+  .message__container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 5%;
+    margin-top: 3px;
+  }
+
+  .message__user {
+    background-color: rgba(145, 10, 145, 0.993);
+    border-radius: 20px;
+    padding: 5px 10px 5px;
+    color: white;
+    margin-right: 10px;
+}
+
+  .message__nonUser {
+      background-color: rgba(247, 12, 122, 0.993);
+      border-radius: 20px;
+      padding: 5px 10px 5px;
+      color: white;
+      margin-right: 10px;
+  }
+  
+  .sentText {
+>>>>>>> 84acef162214e60ac04bb0044682a39167d9e6a9
     display: flex;
     align-items: center;
     font-family: Helvetica;
     color: #828282;
     letter-spacing: 0.3px;
+<<<<<<< HEAD
 }
 
 .justify__start {
@@ -49,4 +96,23 @@
 .justify__end {
     justify-content: flex-end;
 }
+=======
+  }
+  
+  .pl-10 {
+    padding-left: 10px;
+  }
+  
+  .pr-10 {
+    padding-right: 10px;
+  }
+  
+  .justify__start {
+    justify-content: flex-start;
+  }
+  
+  .justify__end {
+    justify-content: flex-end;
+  }
+>>>>>>> 84acef162214e60ac04bb0044682a39167d9e6a9
   
