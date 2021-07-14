@@ -1,5 +1,18 @@
 
+<<<<<<< HEAD
 .message__text {
+=======
+.messageBox {
+    background: #F3F3F3;
+    border-radius: 20px;
+    padding: 5px 20px;
+    color: white;
+    display: inline-block;
+    max-width: 80%;
+  }
+  
+  .messageText {
+>>>>>>> 09286aeecca0aa502c3f3dbda96c948f5078e279
     width: 100%;
     letter-spacing: 0;
     float: left;
@@ -33,8 +46,14 @@
       margin-right: 10px;
       margin-bottom: 5px;
 }
+<<<<<<< HEAD
   
 .sent__text {
+=======
+ 
+  
+  .sentText {
+>>>>>>> 09286aeecca0aa502c3f3dbda96c948f5078e279
     display: flex;
     align-items: center;
     font-family: Helvetica;
@@ -49,4 +68,9 @@
 .justify__end {
     justify-content: flex-end;
 }
+<<<<<<< HEAD
   
+=======
+  
+  
+>>>>>>> 09286aeecca0aa502c3f3dbda96c948f5078e279
