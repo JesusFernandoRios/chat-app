@@ -78,3 +78,19 @@ label {
     cursor: pointer;
     color: white;
 }
+
+@media (max-width: 768px) {
+    .join__container {
+        width: 90%;
+        height: 90vh;
+    }
+    .join__innerContainer {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .join__button {
+        margin-left: 0;
+    }
+}

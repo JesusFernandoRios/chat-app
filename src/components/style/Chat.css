@@ -31,3 +31,15 @@
     border-radius: 20px;
     padding: 10px;
 }
+
+@media (max-width: 768px) {
+    .outer__container {
+        height: 90vh;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .left__container {
+        width: 80%;
+    }
+    
+}

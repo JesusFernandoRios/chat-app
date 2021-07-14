@@ -9,6 +9,7 @@
     height: 10px;
     outline: none;
     padding: 10px;
+    border-radius: 20px;
 }
 
 .sendButton {
