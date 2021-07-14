@@ -18,13 +18,17 @@ function Chat({location}) {
     const [message, setMessage] = useState('')
     const [messages, setMessages] = useState([])
 
-    const serverEndPoint = 'https://react-chaap.herokuapp.com/';
+    const serverEndPoint = 'http://localhost:3001';
+
+    // 'https://react-chaap.herokuapp.com/'
+
+
 
     useEffect(() => {
         const {name, room} = queryString.parse(location.search);
 
         socket = io(serverEndPoint, {
-            withCredentials: false
+            origin: '*'
         })
 
         setName(name);
